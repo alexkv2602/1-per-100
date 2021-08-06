@@ -1,14 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int account = 2000;
-        int topUp = 1300;
-        if (topUp > 1000) {
-            int bonus = (topUp) / 100;
-            System.out.println(account +topUp + bonus);
-            System.out.println(bonus);
-        } else {
-            System.out.println(account);
+        int Account = 2000;
+        int TopUp = 1300;
+        if (TopUp > 1000) {
+            int Bonus = (TopUp) / 100;
+            System.out.println(Account + TopUp + Bonus);
+            System.out.println(Bonus);
         }
-
     }
+
 }
