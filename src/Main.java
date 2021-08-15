@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int account = 2000;
-        int topUp = 100         
-            int bonus = (topUp) / 100;
-            System.out.println(account + topUp + bonus);
-            System.out.println(bonus);
+        int balance = 1000;
+        int topUpBalance = 2000;
+        int bonus = topUpBalance / 100;
+        int resultBalance;
+        if (topUpBalance > 1000) {
+            resultBalance = balance + topUpBalance + bonus;
+        } else {
+            resultBalance = balance + topUpBalance;
         }
+        System.out.println("Остаток на счете:" + resultBalance);
     }
-
 }
