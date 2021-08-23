@@ -10,5 +10,6 @@ public class Main {
             resultBalance = balance + topUpBalance;
         }
         System.out.println("Остаток на счете:" + resultBalance);
+        System.out.println("Бонус:" + bonus);
     }
 }
